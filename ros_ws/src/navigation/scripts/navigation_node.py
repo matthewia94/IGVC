@@ -2,6 +2,7 @@
 import rospy
 from sensor_msgs.msg import LaserScan
 from geometry_msgs.msg import Twist
+from NeuralNetwork import NeuralNetwork
 
 
 class Navigation:
@@ -14,6 +15,8 @@ class Navigation:
         self.pub = rospy.Publisher('/auto_twist', Twist, queue_size=1)
 
         self.twist_msg = Twist()
+
+        self.net = NeuralNetwork(1080, 1100, 2)
 
     def laserCallback(self, data):
         self.dists = data.ranges

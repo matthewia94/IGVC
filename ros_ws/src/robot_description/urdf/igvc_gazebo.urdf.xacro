@@ -105,5 +105,20 @@
                 </plugin>
             </sensor>
         </gazebo>
+
+        <!-- Bump Sensor -->
+        <gazebo reference="base_link">
+            <sensor name="base_contact_sensor" type="contact">
+                <always_on>true</always_on>
+                <update_rate>30.0</update_rate>
+                <contact>
+                    <collision>base_link_collision</collision>
+                </contact>
+                <plugin name="base_ros_bumper_controller" filename="libgazebo_ros_bumper.so">
+                    <bumperTopicName>/base_bumper</bumperTopicName>
+                    <frameName>base_link</frameName>
+                </plugin>
+            </sensor>
+        </gazebo>
     </xacro:macro>
 </robot>

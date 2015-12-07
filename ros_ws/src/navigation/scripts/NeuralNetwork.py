@@ -43,21 +43,19 @@ class NeuralNetwork:
         # print self.hidden_layer
         # print self.output_layer
 
-    def backpropagation(self):
-        delta_hidden = self.sigmoid(self.output_layer, deriv=True) * self.error()
+    def backpropagation(self, error):
+        delta_hidden = self.sigmoid(self.output_layer, deriv=True) * error
         ho_weights_update = self.ho_weights + self.learn_rate * delta_hidden * np.matrix(self.output_layer).transpose()
         delta_input = self.sigmoid(self.hidden_layer, deriv=True) * (delta_hidden*self.ho_weights.transpose()).A1
         self.ho_weights = ho_weights_update
-        self.ih_weights += self.learn_rate * np.matrix(self.input_layer).transpose() * delta_input
+        self.ih_weights -= self.learn_rate * np.matrix(self.input_layer).transpose() * delta_input
 
-    def error(self):
-        return self.input_layer - self.output_layer
 
 def main():
     n = NeuralNetwork(1, 2, 1)
-    for i in range(10000):
+    for i in range(100):
         n.feedforward()
-        n.backpropagation()
+        n.backpropagation(n.input_layer - n.output_layer)
         print n.output_layer
 
 if __name__ == "__main__":

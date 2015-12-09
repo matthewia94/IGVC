@@ -7,6 +7,8 @@ find_package(catkin REQUIRED COMPONENTS
   sensor_msgs
   geometry_msgs
   gazebo_msgs
+  nav_msgs
+  tf
 )
 
 ###################################

@@ -1,0 +1,46 @@
+FUNCTION_BLOCK goal_seeking
+
+    VAR_INPUT
+        heading_error : REAL; (* RANGE(-3.14 .. 3.14) *)
+    END_VAR
+
+    VAR_OUTPUT
+        ang_vel : REAL; (* RANGE(-1 .. 1) *)
+    END_VAR
+
+    FUZZIFY heading_error
+        TERM far_left     := (-3.14, 0) (-3.14, 1) (-2.14, 1) (-2, 0);
+        TERM medium_left  := (-2.14, 0) (-2, 1) (-1, 1) (-0.9, 0);
+        TERM left         := (-1, 0) (-0.9, 1) (-0.1, 1) (-0.08, 0);
+        TERM head_on      := (-0.1, 0) (-0.08, 1) (0.08, 1) (0.1, 0);
+        TERM right        := (0.08, 0) (0.1, 1) (0.9, 1) (1, 0);
+        TERM medium_right := (0.9, 0) (1, 1) (2, 1) (2.14, 0);
+        TERM far_right    := (2, 0) (2.14, 1) (3.14, 1) (3.14, 0);
+    END_FUZZIFY
+
+    DEFUZZIFY ang_vel
+        TERM large_neg  := -1;
+        TERM medium_neg := -0.5;
+        TERM small_neg  := -0.25;
+        TERM zero       := 0;
+        TERM small_pos  := 0.25;
+        TERM medium_pos := 0.5;
+        TERM large_pos  := 1;
+        ACCU: MAX;
+        METHOD: COGS;
+        DEFAULT := 0;
+    END_DEFUZZIFY
+
+    RULEBLOCK first
+        AND: MIN;
+        (* ACCU: MAX; *)
+        RULE 0: IF (heading_error IS far_left) THEN (ang_vel IS large_neg);
+        RULE 1: IF (heading_error IS medium_left) THEN (ang_vel IS medium_neg);
+        RULE 2: IF (heading_error IS left) THEN (ang_vel IS small_neg);
+        RULE 3: IF (heading_error IS head_on) THEN (ang_vel IS zero);
+        RULE 4: IF (heading_error IS right) THEN (ang_vel IS small_pos);
+        RULE 5: IF (heading_error IS medium_right) THEN (ang_vel IS medium_pos);
+        RULE 6: IF (heading_error IS far_right) THEN (ang_vel IS large_pos);
+    END_RULEBLOCK
+
+END_FUNCTION_BLOCK

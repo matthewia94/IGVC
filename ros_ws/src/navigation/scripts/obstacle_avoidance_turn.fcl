@@ -1,0 +1,74 @@
+FUNCTION_BLOCK obstacle_avoidance_turn
+
+    VAR_INPUT
+        dist_f     : REAL; (* RANGE(0 .. 30) *)
+        pref_dir_l : REAL; (* RANGE(0 .. 30) *)
+        pref_dir_r : REAL; (* RANGE(0 .. 30) *)
+    END_VAR
+
+    VAR_OUTPUT
+        ang_vel : REAL; (* RANGE(-1 .. 1) *)
+    END_VAR
+
+    FUZZIFY dist_f
+        TERM very_close := (0, 0) (0, 1) (0.5, 1) (0.6, 0);
+        TERM close      := (0.5, 0) (0.6, 1) (2, 1) (2.5, 0);
+        TERM far        := (2, 0) (2.5, 1) (30, 1) (30, 0);
+    END_FUZZIFY
+
+    FUZZIFY pref_dir_l
+        TERM very_close := (0, 0) (0, 1) (0.5, 1) (0.6, 0);
+        TERM close      := (0.5, 0) (0.6, 1) (2, 1) (2.5, 0);
+        TERM far        := (2, 0) (2.5, 1) (30, 1) (30, 0);
+    END_FUZZIFY
+
+    FUZZIFY pref_dir_r
+        TERM very_close := (0, 0) (0, 1) (0.5, 1) (0.6, 0);
+        TERM close      := (0.5, 0) (0.6, 1) (2, 1) (2.5, 0);
+        TERM far        := (2, 0) (2.5, 1) (30, 1) (30, 0);
+    END_FUZZIFY
+
+    DEFUZZIFY ang_vel
+        TERM pos  := 1;
+        TERM neg  := -11;
+        TERM zero := 0;
+        ACCU: MAX;
+        METHOD: COGS;
+        DEFAULT := 0;
+    END_DEFUZZIFY
+
+    RULEBLOCK first
+        AND: MIN;
+        (* ACCU: MAX; *)
+        RULE 0: IF (pref_dir_l IS very_close) AND (pref_dir_r IS very_close) AND (dist_f IS very_close) THEN (ang_vel IS pos);
+        RULE 1: IF (pref_dir_l IS close) AND (pref_dir_r IS very_close) AND (dist_f IS very_close) THEN (ang_vel IS pos);
+        RULE 2: IF (pref_dir_l IS far) AND (pref_dir_r IS very_close) AND (dist_f IS very_close) THEN (ang_vel IS pos);
+        RULE 3: IF (pref_dir_l IS very_close) AND (pref_dir_r IS close) AND (dist_f IS very_close) THEN (ang_vel IS neg);
+        RULE 4: IF (pref_dir_l IS close) AND (pref_dir_r IS close) AND (dist_f IS very_close) THEN (ang_vel IS pos);
+        RULE 5: IF (pref_dir_l IS far) AND (pref_dir_r IS close) AND (dist_f IS very_close) THEN (ang_vel IS pos);
+        RULE 6: IF (pref_dir_l IS very_close) AND (pref_dir_r IS far) AND (dist_f IS very_close) THEN (ang_vel IS neg);
+        RULE 7: IF (pref_dir_l IS close) AND (pref_dir_r IS far) AND (dist_f IS very_close) THEN (ang_vel IS neg);
+        RULE 8: IF (pref_dir_l IS far) AND (pref_dir_r IS far) AND (dist_f IS very_close) THEN (ang_vel IS pos);
+
+        RULE 9: IF (pref_dir_l IS very_close) AND (pref_dir_r IS very_close) AND (dist_f IS close) THEN (ang_vel IS zero);
+        RULE 10: IF (pref_dir_l IS close) AND (pref_dir_r IS very_close) AND (dist_f IS close) THEN (ang_vel IS zero);
+        RULE 11: IF (pref_dir_l IS far) AND (pref_dir_r IS very_close) AND (dist_f IS close) THEN (ang_vel IS pos);
+        RULE 12: IF (pref_dir_l IS very_close) AND (pref_dir_r IS close) AND (dist_f IS close) THEN (ang_vel IS zero);
+        RULE 13: IF (pref_dir_l IS close) AND (pref_dir_r IS close) AND (dist_f IS close) THEN (ang_vel IS zero);
+        RULE 14: IF (pref_dir_l IS far) AND (pref_dir_r IS close) AND (dist_f IS close) THEN (ang_vel IS pos);
+        RULE 15: IF (pref_dir_l IS very_close) AND (pref_dir_r IS far) AND (dist_f IS close) THEN (ang_vel IS neg);
+        RULE 16: IF (pref_dir_l IS close) AND (pref_dir_r IS far) AND (dist_f IS close) THEN (ang_vel IS neg);
+        RULE 17: IF (pref_dir_l IS far) AND (pref_dir_r IS far) AND (dist_f IS close) THEN (ang_vel IS pos);
+
+        RULE 18: IF (pref_dir_l IS very_close) AND (pref_dir_r IS very_close) AND (dist_f IS far) THEN (ang_vel IS zero);
+        RULE 19: IF (pref_dir_l IS close) AND (pref_dir_r IS very_close) AND (dist_f IS far) THEN (ang_vel IS zero);
+        RULE 20: IF (pref_dir_l IS far) AND (pref_dir_r IS very_close) AND (dist_f IS far) THEN (ang_vel IS zero);
+        RULE 21: IF (pref_dir_l IS very_close) AND (pref_dir_r IS close) AND (dist_f IS far) THEN (ang_vel IS zero);
+        RULE 22: IF (pref_dir_l IS close) AND (pref_dir_r IS close) AND (dist_f IS far) THEN (ang_vel IS zero);
+        RULE 23: IF (pref_dir_l IS far) AND (pref_dir_r IS close) AND (dist_f IS far) THEN (ang_vel IS zero);
+        RULE 24: IF (pref_dir_l IS very_close) AND (pref_dir_r IS far) AND (dist_f IS far) THEN (ang_vel IS zero);
+        RULE 25: IF (pref_dir_l IS close) AND (pref_dir_r IS far) AND (dist_f IS far) THEN (ang_vel IS zero);
+        RULE 26: IF (pref_dir_l IS far) AND (pref_dir_r IS far) AND (dist_f IS far) THEN (ang_vel IS zero);
+    END_RULEBLOCK
+
+END_FUNCTION_BLOCK

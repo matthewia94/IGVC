@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/README.md" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/igvc_doxy_config" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CATKIN_IGNORE" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CMakeCache.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CMakeFiles/2.8.12.2/CMakeCCompiler.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CMakeFiles/2.8.12.2/CMakeCXXCompiler.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CMakeFiles/2.8.12.2/CMakeDetermineCompilerABI_C.bin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CMakeFiles/2.8.12.2/CMakeDetermineCompilerABI_CXX.bin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CMakeFiles/2.8.12.2/CMakeSystem.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CMakeFiles/2.8.12.2/CompilerIdC/a.out" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CMakeFiles/CMakeDirectoryInformation.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CMakeFiles/CMakeError.log" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CMakeFiles/CMakeOutput.log" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CMakeFiles/CMakeRuleHashes.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CMakeFiles/Makefile.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CMakeFiles/Makefile2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CMakeFiles/TargetDirectories.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CMakeFiles/clean_test_results.dir/build.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CMakeFiles/clean_test_results.dir/cmake_clean.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CMakeFiles/clean_test_results.dir/progress.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CMakeFiles/cmake.check_cache" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CMakeFiles/download_extra_data.dir/DependInfo.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CMakeFiles/download_extra_data.dir/build.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CMakeFiles/download_extra_data.dir/cmake_clean.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CMakeFiles/download_extra_data.dir/progress.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CMakeFiles/doxygen.dir/DependInfo.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CMakeFiles/doxygen.dir/build.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CMakeFiles/doxygen.dir/cmake_clean.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CMakeFiles/doxygen.dir/progress.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CMakeFiles/progress.marks" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CMakeFiles/run_tests.dir/DependInfo.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CMakeFiles/run_tests.dir/build.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CMakeFiles/run_tests.dir/cmake_clean.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CMakeFiles/run_tests.dir/progress.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CMakeFiles/tests.dir/DependInfo.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CMakeFiles/tests.dir/build.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CMakeFiles/tests.dir/cmake_clean.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CMakeFiles/tests.dir/progress.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/CTestTestfile.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/Makefile" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/catkin/catkin_generated/version/package.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/catkin_generated/env_cached.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/catkin_generated/generate_cached_setup.py" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/catkin_generated/installspace/_setup_util.py" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/catkin_generated/installspace/env.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/catkin_generated/installspace/setup.bash" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/catkin_generated/installspace/setup.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/catkin_generated/installspace/setup.zsh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/catkin_generated/order_packages.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/catkin_generated/order_packages.py" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/catkin_generated/setup_cached.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/catkin_generated/stamps/Project/interrogate_setup_dot_py.py.stamp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/catkin_generated/stamps/Project/order_packages.cmake.em.stamp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/catkin_generated/stamps/Project/package.xml.stamp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/catkin_make.cache" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/cmake_install.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/CMakeDirectoryInformation.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/cmake_clean.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend.internal" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/progress.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/DependInfo.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/cmake_clean.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend.internal" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/progress.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/geometry_msgs_generate_messages_py.dir/cmake_clean.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend.internal" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/geometry_msgs_generate_messages_py.dir/progress.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/motor_controller_node.dir/CXX.includecache" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/motor_controller_node.dir/DependInfo.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/motor_controller_node.dir/build.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/motor_controller_node.dir/cmake_clean.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/motor_controller_node.dir/depend.internal" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/motor_controller_node.dir/depend.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/motor_controller_node.dir/flags.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/motor_controller_node.dir/link.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/motor_controller_node.dir/progress.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/motor_controller_node.dir/src/control/motor_controller.cpp.o" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/motor_controller_node.dir/src/control/motor_controller_node.cpp.o" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/progress.marks" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/remote_control_node.dir/CXX.includecache" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/remote_control_node.dir/DependInfo.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/remote_control_node.dir/build.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/remote_control_node.dir/cmake_clean.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/remote_control_node.dir/depend.internal" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/remote_control_node.dir/depend.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/remote_control_node.dir/flags.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/remote_control_node.dir/link.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/remote_control_node.dir/progress.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/remote_control_node.dir/src/control/remote_control.cpp.o" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/remote_control_node.dir/src/control/remote_control_node.cpp.o" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/roscpp_generate_messages_cpp.dir/DependInfo.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/roscpp_generate_messages_cpp.dir/cmake_clean.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/roscpp_generate_messages_cpp.dir/depend.internal" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/roscpp_generate_messages_cpp.dir/depend.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/roscpp_generate_messages_cpp.dir/progress.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/roscpp_generate_messages_lisp.dir/cmake_clean.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/roscpp_generate_messages_lisp.dir/depend.internal" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/roscpp_generate_messages_lisp.dir/depend.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/roscpp_generate_messages_lisp.dir/progress.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/roscpp_generate_messages_py.dir/build.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/roscpp_generate_messages_py.dir/cmake_clean.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/roscpp_generate_messages_py.dir/depend.internal" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/roscpp_generate_messages_py.dir/depend.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/roscpp_generate_messages_py.dir/progress.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/DependInfo.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/cmake_clean.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend.internal" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/progress.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/cmake_clean.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend.internal" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/progress.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/DependInfo.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/cmake_clean.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend.internal" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/progress.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/DependInfo.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/cmake_clean.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/depend.internal" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/depend.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/progress.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/DependInfo.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/cmake_clean.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/depend.internal" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/depend.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/progress.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/sensor_msgs_generate_messages_py.dir/DependInfo.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/sensor_msgs_generate_messages_py.dir/cmake_clean.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/sensor_msgs_generate_messages_py.dir/depend.internal" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/sensor_msgs_generate_messages_py.dir/depend.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/sensor_msgs_generate_messages_py.dir/progress.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/std_msgs_generate_messages_cpp.dir/DependInfo.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/std_msgs_generate_messages_cpp.dir/cmake_clean.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend.internal" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/std_msgs_generate_messages_cpp.dir/progress.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/std_msgs_generate_messages_lisp.dir/cmake_clean.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend.internal" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/std_msgs_generate_messages_lisp.dir/progress.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/std_msgs_generate_messages_py.dir/build.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/std_msgs_generate_messages_py.dir/cmake_clean.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/std_msgs_generate_messages_py.dir/depend.internal" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/std_msgs_generate_messages_py.dir/depend.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/std_msgs_generate_messages_py.dir/progress.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/teleop_mux_node.dir/CXX.includecache" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/teleop_mux_node.dir/DependInfo.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/teleop_mux_node.dir/build.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/teleop_mux_node.dir/cmake_clean.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/teleop_mux_node.dir/depend.internal" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/teleop_mux_node.dir/depend.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/teleop_mux_node.dir/flags.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/teleop_mux_node.dir/link.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/teleop_mux_node.dir/progress.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/teleop_mux_node.dir/src/control/twist_mux.cpp.o" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CMakeFiles/teleop_mux_node.dir/src/control/twist_mux_node.cpp.o" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/CTestTestfile.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/Makefile" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/catkin_generated/installspace/control.pc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/catkin_generated/installspace/controlConfig-version.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/catkin_generated/installspace/controlConfig.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/catkin_generated/ordered_paths.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/catkin_generated/package.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/catkin_generated/pkg.develspace.context.pc.py" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/catkin_generated/pkg.installspace.context.pc.py" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/catkin_generated/stamps/control/package.xml.stamp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/catkin_generated/stamps/control/pkg.pc.em.stamp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/control/cmake_install.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/gtest/CMakeFiles/CMakeDirectoryInformation.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/gtest/CMakeFiles/gtest.dir/DependInfo.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/gtest/CMakeFiles/gtest.dir/build.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/gtest/CMakeFiles/gtest.dir/cmake_clean.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/gtest/CMakeFiles/gtest.dir/depend.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/gtest/CMakeFiles/gtest.dir/flags.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/gtest/CMakeFiles/gtest.dir/link.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/gtest/CMakeFiles/gtest.dir/progress.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/gtest/CMakeFiles/gtest_main.dir/build.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/gtest/CMakeFiles/gtest_main.dir/cmake_clean.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/gtest/CMakeFiles/gtest_main.dir/depend.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/gtest/CMakeFiles/gtest_main.dir/flags.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/gtest/CMakeFiles/gtest_main.dir/link.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/gtest/CMakeFiles/gtest_main.dir/progress.make" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/gtest/CMakeFiles/progress.marks" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/gtest/CTestTestfile.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/gtest/Makefile" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/build/gtest/cmake_install.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/devel/_setup_util.py" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/devel/env.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/devel/lib/control/motor_controller_node" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/devel/lib/control/remote_control_node" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/devel/lib/control/teleop_mux_node" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/devel/lib/pkgconfig/control.pc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/devel/lib/pkgconfig/kobuki_description.pc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/devel/setup.bash" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/devel/setup.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/devel/setup.zsh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/devel/share/control/cmake/controlConfig-version.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/devel/share/control/cmake/controlConfig.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/devel/share/kobuki_description/cmake/kobuki_descriptionConfig-version.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/devel/share/kobuki_description/cmake/kobuki_descriptionConfig.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/src/common/constants.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/src/control/include/control/motor_controller.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/src/control/include/control/remote_control.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/src/control/include/control/twist_mux.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/src/control/src/control/motor_controller.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/src/control/src/control/motor_controller_node.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/src/control/src/control/remote_control.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/src/control/src/control/remote_control_node.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/src/control/src/control/twist_mux.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ros_ws/src/control/src/control/twist_mux_node.cpp" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 2.7.6 (/usr/bin/python2.7)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/ros_ws/devel/include" />
+          <root url="file:///opt/ros/indigo/include" />
+          <root url="file:///usr/include" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+          <root url="file:///usr/local/include" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/ros_ws/devel/include" />
+          <root url="file:///opt/ros/indigo/include" />
+          <root url="file:///usr/include" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+          <root url="file:///usr/local/include" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

@@ -1,0 +1,74 @@
+FUNCTION_BLOCK obstacle_direction
+
+    VAR_INPUT
+        dist_n : REAL; (* RANGE(0 .. 30) *)
+        dist_m : REAL; (* RANGE(0 .. 30) *)
+        dist_f : REAL; (* RANGE(0 .. 30) *)
+    END_VAR
+
+    VAR_OUTPUT
+        preferred_dir : REAL; (* RANGE(0 .. 1) *)
+    END_VAR
+
+    FUZZIFY dist_n
+        TERM very_close := (0, 0) (0, 1) (0.5, 1) (0.6, 0);
+        TERM close      := (0.5, 0) (0.6, 1) (2, 1) (2.5, 0);
+        TERM far        := (2, 0) (2.5, 1) (30, 1) (30, 0);
+    END_FUZZIFY
+
+    FUZZIFY dist_m
+        TERM very_close := (0, 0) (0, 1) (0.5, 1) (0.6, 0);
+        TERM close      := (0.5, 0) (0.6, 1) (2, 1) (2.5, 0);
+        TERM far        := (2, 0) (2.5, 1) (30, 1) (30, 0);
+    END_FUZZIFY
+
+    FUZZIFY dist_f
+        TERM very_close := (0, 0) (0, 1) (0.5, 1) (0.6, 0);
+        TERM close      := (0.5, 0) (0.6, 1) (2, 1) (2.5, 0);
+        TERM far        := (2, 0) (2.5, 1) (30, 1) (30, 0);
+    END_FUZZIFY
+
+    DEFUZZIFY preferred_dir
+        TERM small  := 0.0;
+        TERM medium := 0.5;
+        TERM large  := 1.0;
+        ACCU: MAX;
+        METHOD: COGS;
+        DEFAULT := 0;
+    END_DEFUZZIFY
+
+    RULEBLOCK first
+        AND: MIN;
+        (* ACCU: MAX; *)
+        RULE 0: IF (dist_f IS very_close) AND (dist_m IS very_close) AND (dist_n IS very_close) THEN (preferred_dir IS small);
+        RULE 1: IF (dist_f IS close) AND (dist_m IS very_close) AND (dist_n IS very_close) THEN (preferred_dir IS large);
+        RULE 2: IF (dist_f IS far) AND (dist_m IS very_close) AND (dist_n IS very_close) THEN (preferred_dir IS large);
+        RULE 3: IF (dist_f IS very_close) AND (dist_m IS close) AND (dist_n IS very_close) THEN (preferred_dir IS medium);
+        RULE 4: IF (dist_f IS close) AND (dist_m IS close) AND (dist_n IS very_close) THEN (preferred_dir IS medium);
+        RULE 5: IF (dist_f IS far) AND (dist_m IS close) AND (dist_n IS very_close) THEN (preferred_dir IS large);
+        RULE 6: IF (dist_f IS very_close) AND (dist_m IS far) AND (dist_n IS very_close) THEN (preferred_dir IS medium);
+        RULE 7: IF (dist_f IS close) AND (dist_m IS far) AND (dist_n IS very_close) THEN (preferred_dir IS medium);
+        RULE 8: IF (dist_f IS far) AND (dist_m IS far) AND (dist_n IS very_close) THEN (preferred_dir IS medium);
+
+        RULE 9: IF (dist_f IS very_close) AND (dist_m IS very_close) AND (dist_n IS close) THEN (preferred_dir IS small);
+        RULE 10: IF (dist_f IS close) AND (dist_m IS very_close) AND (dist_n IS close) THEN (preferred_dir IS small);
+        RULE 11: IF (dist_f IS far) AND (dist_m IS very_close) AND (dist_n IS close) THEN (preferred_dir IS large);
+        RULE 12: IF (dist_f IS very_close) AND (dist_m IS close) AND (dist_n IS close) THEN (preferred_dir IS small);
+        RULE 13: IF (dist_f IS close) AND (dist_m IS close) AND (dist_n IS close) THEN (preferred_dir IS small);
+        RULE 14: IF (dist_f IS far) AND (dist_m IS close) AND (dist_n IS close) THEN (preferred_dir IS large);
+        RULE 15: IF (dist_f IS very_close) AND (dist_m IS far) AND (dist_n IS close) THEN (preferred_dir IS medium);
+        RULE 16: IF (dist_f IS close) AND (dist_m IS far) AND (dist_n IS close) THEN (preferred_dir IS medium);
+        RULE 17: IF (dist_f IS far) AND (dist_m IS far) AND (dist_n IS close) THEN (preferred_dir IS medium);
+
+        RULE 18: IF (dist_f IS very_close) AND (dist_m IS very_close) AND (dist_n IS far) THEN (preferred_dir IS small);
+        RULE 19: IF (dist_f IS close) AND (dist_m IS very_close) AND (dist_n IS far) THEN (preferred_dir IS small);
+        RULE 20: IF (dist_f IS far) AND (dist_m IS very_close) AND (dist_n IS far) THEN (preferred_dir IS small);
+        RULE 21: IF (dist_f IS very_close) AND (dist_m IS close) AND (dist_n IS far) THEN (preferred_dir IS small);
+        RULE 22: IF (dist_f IS close) AND (dist_m IS close) AND (dist_n IS far) THEN (preferred_dir IS small);
+        RULE 23: IF (dist_f IS far) AND (dist_m IS close) AND (dist_n IS far) THEN (preferred_dir IS small);
+        RULE 24: IF (dist_f IS very_close) AND (dist_m IS far) AND (dist_n IS far) THEN (preferred_dir IS small);
+        RULE 25: IF (dist_f IS close) AND (dist_m IS far) AND (dist_n IS far) THEN (preferred_dir IS small);
+        RULE 26: IF (dist_f IS far) AND (dist_m IS far) AND (dist_n IS far) THEN (preferred_dir IS small);
+    END_RULEBLOCK
+
+END_FUNCTION_BLOCK

@@ -80,9 +80,9 @@ class Navigation:
         scan = list(data.ranges[270:810])
         self.obs_dists['dist_fl'] = (min(scan[:(len(scan)/self.num_fields)]))
         self.obs_dists['dist_ml'] = (min(scan[(len(scan)/self.num_fields)+1:2*(len(scan)/self.num_fields)]))
-        self.obs_dists['dist_nl'] = (min(2*scan[(len(scan)/self.num_fields)+1:3*(len(scan)/self.num_fields)-30]))
+        self.obs_dists['dist_nl'] = (min(2*scan[(len(scan)/self.num_fields)+1:3*(len(scan)/self.num_fields)+50]))
         self.obs_dists['dist_f'] = (min(3*scan[(len(scan)/self.num_fields)-30:4*(len(scan)/self.num_fields)+30]))
-        self.obs_dists['dist_nr'] = (min(4*scan[(len(scan)/self.num_fields)-30:5*(len(scan)/self.num_fields)]))
+        self.obs_dists['dist_nr'] = (min(4*scan[(len(scan)/self.num_fields)-50:5*(len(scan)/self.num_fields)]))
         self.obs_dists['dist_mr'] = (min(5*scan[(len(scan)/self.num_fields)+1:6*(len(scan)/self.num_fields)]))
         self.obs_dists['dist_fr'] = (min(6*scan[(len(scan)/self.num_fields)+1:]))
 
@@ -123,7 +123,7 @@ class Navigation:
         self.turn_twist.angular.z = self.out_obstacle_turn['ang_vel']
 
     def update(self):
-        if self.obs_dists['dist_f'] > 1 and self.goal_dist > .25:
+        if self.obs_dists['dist_f'] > 1 and self.goal_dist > .5:
             self.twist_msg.linear.x = 0.5 * self.goal_twist.linear.x + self.output_obs_weight['weight'] * self.turn_twist.linear.x
         else:
             self.twist_msg.linear.x = 0
